@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  wss-port: 8089
+  servlet:
+    context-path: /
+
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 2
